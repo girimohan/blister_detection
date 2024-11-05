@@ -1,0 +1,27 @@
+# Datasets
+yolo_dataset/
+synthetic_dataset/
+yolo_dataset_augmented/
+combined_dataset/
+
+# Cloned repositories
+yolov9/
+
+# Results and runs
+.gradio/
+
+# Git
+.git/
+.gitattributes
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Model weights
+*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
