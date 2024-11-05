@@ -63,4 +63,4 @@ Best Model Performance (Synthetic Training):
 - For Best Overall Results: Use Combined Dataset Model
 
 ## Note
-The complete implementation, including training procedures and interactive testing interface, is available in the notebook `blister_detection_ml.ipynb`.
+The complete implementation, including training procedures and interactive testing interface, is available in the notebook `notebooks/blister_detection_ml.ipynb`.
