@@ -15,13 +15,24 @@ yolov9/
 .gitattributes
 
 # Python
-__pycache__/
+**pycache**/
 *.py[cod]
 .ipynb_checkpoints/
-
-# Model weights
-*.pt
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Allow specific weight directories
+!runs/
+!runs/detect/
+!runs/detect/yolov8s_synthetic/
+!runs/detect/yolov8s_synthetic/weights/
+!runs/detect/yolov8s_synthetic/weights/best.pt
+!runs/detect/yolov8s_real_finetuned/
+!runs/detect/yolov8s_real_finetuned/weights/
+!runs/detect/yolov8s_real_finetuned/weights/best.pt
+!yolo_results/
+!yolo_results/yolov8s_combined/
+!yolo_results/yolov8s_combined/weights/
+!yolo_results/yolov8s_combined/weights/best.pt
